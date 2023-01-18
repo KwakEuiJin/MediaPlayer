@@ -24,9 +24,11 @@ class MainActivity : AppCompatActivity() {
         binding.playButton.setOnClickListener {
             mediaPlay()
         }
+
         binding.pauseButton.setOnClickListener {
             mediaPause()
         }
+
         binding.stopButton.setOnClickListener {
             mediaStop()
         }
